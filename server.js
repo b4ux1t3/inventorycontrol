@@ -7,8 +7,10 @@ var path = require('path')
 app.set('view engine', 'ejs');
 app.set('views', path.resolve(__dirname, 'client', 'views'));
 
+app.use(express.static(path.resolve(__dirname, 'client')));
+
 app.get('/', function(req, res){
-  console.log("User connected from ")
+  console.log("User connected from " + req.connection.remoteAddress)
   res.render('index.ejs');
 });
 

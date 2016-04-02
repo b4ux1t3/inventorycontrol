@@ -1,0 +1,15 @@
+{
+  "name": "inventorycontrol",
+  "description": "A simple web-based inventory control system.",
+  "main": "server.js",
+  "authors": [
+    "Alex PIlcher"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/b4ux1t3/inventorycontrol",
+  "moduleType": [],
+  "dependencies": {
+    "angular": "^1.5.3",
+    "bootstrap": "^3.3.6"
+  }
+}

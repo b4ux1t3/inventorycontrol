@@ -8,6 +8,7 @@ app.set('view engine', 'ejs');
 app.set('views', path.resolve(__dirname, 'client', 'views'));
 
 app.get('/', function(req, res){
+  console.log("User connected from ")
   res.render('index.ejs');
 });
 

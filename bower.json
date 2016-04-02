@@ -11,5 +11,8 @@
   "dependencies": {
     "angular": "^1.5.3",
     "bootstrap": "^3.3.6"
+  },
+  "install": {
+    "path": "client/libs"
   }
 }

@@ -14,6 +14,11 @@ app.get('/', function(req, res){
   res.render('index.ejs');
 });
 
+app.get('/home', function(req, res){
+  console.log("User connected from " + req.connection.remoteAddress)
+  res.render('index.ejs');
+});
+
 app.listen(port, function(){
   console.log('Server running on port: ' + port);
 })

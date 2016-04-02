@@ -7,7 +7,7 @@ var path = require('path')
 app.set('view engine', ejs);
 app.set('views', path.resolve(__dirname, 'client', 'views'));
 
-app.get('/' function(req, res)){
+app.get('/', function(req, res)){
   res.render('index.ejs');
 });
 
